@@ -16,9 +16,5 @@ int main() {
 
     boost::asio::spawn(io_context, server);
 
-    // for(auto&& connection : server) {
-
-    // }
-
     io_context.run();
 }
